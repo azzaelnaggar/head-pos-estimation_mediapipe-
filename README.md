@@ -18,10 +18,12 @@ such as aiding in gaze estimation, modeling attention, fitting 3D models to vide
 2- Mean Squared Error (MSE)
 
 ==>MediaPipe Pose
+
 The pipeline is implemented as a MediaPipe graph that uses a pose landmark subgraph from the pose landmark module and renders using a dedicated pose renderer subgraph. 
 The pose landmark subgraph internally uses a pose detection subgraph from the pose detection module.
 
 ==>Input / Output 
+
 Our method takes as input a single RGB frame from runtime video.
 Results : The blue line indicates the direction the subject is facing; the green line for
 the downward direction while the red one for the side.
